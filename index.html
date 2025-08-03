@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRIAN OKELO | Portfolio</title>
+  <style>
+    /* Reset default styles and set global properties */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header Styling */
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #004d40;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Navigation Styling */
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background: #00695c;
+      padding: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #b2dfdb;
+      text-decoration: underline;
+    }
+
+    /* Main Content Styling */
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #00695c;
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+
+    section ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .profile-img {
+      width: 150px;
+      border-radius: 50%;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .project {
+      background: #e0f2f1;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      border-left: 4px solid #00695c;
+    }
+
+    .project h3 {
+      color: #004d40;
+    }
+
+    .project a {
+      color: #00695c;
+      text-decoration: none;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    /* Contact Form Styling */
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #00695c;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004d40;
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #004d40;
+      color: white;
+      width: 100%;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+
+      section {
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 1.2em;
+      }
+
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+      }
+
+      form {
+        max-width: 100%;
+      }
+
+      input, textarea {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BRIAN OKELO</h1>
+    <p>Future Full-Stack Developer | Pentester | Atruist</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <!-- Placeholder for profile image -->
+      <img src="Mombasa.jpg" alt="Profile Picture" class="profile-img">
+      <p>Hi 😊</pp>, 
+        <p>My name is Brian, passionate learner exploring software development and cybersecurity. I enjoy turning ideas into reality through code and building things that have impact.</p>
+        <div style="clear: both;"></div>
+    </section>
+
+    <section id="skills">
+      <h2>Programming Languages</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Laravel PHP</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+        <p>
+                <strong>Kenyatta University - BSc. Mathematics and Computer Science (2022~Present)</strong><br></p>
+      <p>Power Learn Project <strong>(PLP)</strong> – Software Development (Present)</p>
+         <p> CISCO <strong>Ethical Hacker </strong>Certificate (Present)</p>
+      <!-- Placeholder for CV link -->
+      <a href="mockCV.pdf" download>📄 Download My CV</a>
+    </section>
+
+    <section id="interests">
+      <h2>Tech Interests</h2>
+      <p>I’m excited about ethical hacking, building full-stack web apps, and learning how systems work under the hood. I'm especially interested in security and automation.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Personal Blog</h3>
+        <!-- Placeholder for project image -->
+        <img src="Shopify.png" alt="Personal Blog Screenshot">
+        <p>Analysed Shopify sales to highlight relationship between sales and<br>varying quantities. <a href="shopify.png" Download>Click to download</a></p>
+      </div>
+      <div class="project">
+        <h3>Simple Calculator</h3>
+        <!-- Placeholder for project image -->
+        <img src="placeholder.jpg" alt="Login System Screenshot">
+        <p>A simple calculator interphase using Python Tkinter tool,<br> that allows user enter inputs into dialogues boxes. <a href="https://github.com/Ok-Brian/PLP/blob/main/calculator.py" target = "_blank">View on Github</a></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 BRIAN OKELO. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
