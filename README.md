@@ -34,7 +34,7 @@ This portfolio website is structured to introduce who I am, highlight my skills 
 
 ## 🌍 Live Site
 
-Soon to be hosted on GitHub Pages — stay tuned for the link!
+I am exploring the posibilities of growing this website to be hosted by end year 2025
 
 ## 📄 License
 
